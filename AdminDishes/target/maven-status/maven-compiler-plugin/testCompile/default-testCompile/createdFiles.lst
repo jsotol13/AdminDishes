@@ -1,0 +1,13 @@
+com\mycompany\webapp\controller\SignupControllerTest.class
+com\mycompany\webapp\service\impl\SubscriptionManagerImplTest.class
+com\mycompany\webapp\dao\MealDaoTest.class
+com\mycompany\webapp\controller\UserControllerTest.class
+com\mycompany\webapp\controller\UserFormControllerTest.class
+com\mycompany\webapp\service\impl\MealManagerImplTest.class
+com\mycompany\webapp\controller\UpdatePasswordControllerTest.class
+com\mycompany\webapp\controller\BaseControllerTestCase.class
+com\mycompany\webapp\dao\SubscriptionDaoTest.class
+com\mycompany\webapp\controller\PasswordHintControllerTest.class
+com\mycompany\webapp\filter\LocaleFilterTest.class
+com\mycompany\webapp\filter\MockFilterChain.class
+com\mycompany\webapp\listener\StartupListenerTest.class
