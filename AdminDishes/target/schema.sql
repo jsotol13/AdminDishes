@@ -1,12 +1,4 @@
 
-    alter table mealSubscription 
-        drop 
-        foreign key FK_1ub4um8nkreu92k9xx4k8lbj4;
-
-    alter table mealSubscription 
-        drop 
-        foreign key FK_sjotneyuut39y10cjf7ux9ecc;
-
     alter table user_role 
         drop 
         foreign key FK_it77eq964jhfqtu54081ebtio;
@@ -17,13 +9,7 @@
 
     drop table if exists app_user;
 
-    drop table if exists meal;
-
-    drop table if exists mealSubscription;
-
     drop table if exists role;
-
-    drop table if exists subscription;
 
     drop table if exists user_role;
 
@@ -50,38 +36,11 @@
         primary key (id)
     ) ENGINE=InnoDB;
 
-    create table meal (
-        mealID bigint not null auto_increment,
-        descriptionMeal varchar(500),
-        nameMeal varchar(500),
-        picture varchar(1000),
-        stateMeal integer,
-        primary key (mealID)
-    ) ENGINE=InnoDB;
-
-    create table mealSubscription (
-        mealSubscriptionID bigint not null auto_increment,
-        dayMealSubscription integer,
-        mealID bigint not null,
-        subscriptionID bigint,
-        primary key (mealSubscriptionID)
-    ) ENGINE=InnoDB;
-
     create table role (
         id bigint not null auto_increment,
         description varchar(64),
         name varchar(20),
         primary key (id)
-    ) ENGINE=InnoDB;
-
-    create table subscription (
-        subscriptionID bigint not null auto_increment,
-        description varchar(200),
-        name varchar(20),
-        state bit,
-        week integer,
-        year integer,
-        primary key (subscriptionID)
     ) ENGINE=InnoDB;
 
     create table user_role (
@@ -95,16 +54,6 @@
 
     alter table app_user 
         add constraint UK_3k4cplvh82srueuttfkwnylq0  unique (username);
-
-    alter table mealSubscription 
-        add constraint FK_1ub4um8nkreu92k9xx4k8lbj4 
-        foreign key (mealID) 
-        references meal (mealID);
-
-    alter table mealSubscription 
-        add constraint FK_sjotneyuut39y10cjf7ux9ecc 
-        foreign key (subscriptionID) 
-        references subscription (subscriptionID);
 
     alter table user_role 
         add constraint FK_it77eq964jhfqtu54081ebtio 

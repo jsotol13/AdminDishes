@@ -1,13 +1,13 @@
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\dao\MealDaoTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\dao\SubscriptionDaoTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\controller\PasswordHintControllerTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\controller\UpdatePasswordControllerTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\filter\MockFilterChain.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\controller\BaseControllerTestCase.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\controller\UserFormControllerTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\controller\UserControllerTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\listener\StartupListenerTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\controller\SignupControllerTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\filter\LocaleFilterTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\service\impl\SubscriptionManagerImplTest.java
-C:\Users\JSL\workspace\AdminDishes\src\test\java\com\mycompany\webapp\service\impl\MealManagerImplTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\dao\SubscriptionDaoTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\service\impl\SubscriptionManagerImplTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\controller\UserFormControllerTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\controller\PasswordHintControllerTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\dao\MealDaoTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\controller\SignupControllerTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\controller\UserControllerTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\filter\MockFilterChain.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\filter\LocaleFilterTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\listener\StartupListenerTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\service\impl\MealManagerImplTest.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\controller\BaseControllerTestCase.java
+C:\Users\JSL\git\AdminDishes - Final\AdminDishes\src\test\java\com\mycompany\webapp\controller\UpdatePasswordControllerTest.java

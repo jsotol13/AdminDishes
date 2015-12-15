@@ -2,6 +2,8 @@ package com.mycompany.webapp.dto;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+import com.mycompany.webapp.model.UserSubscription;
+
 @XmlRootElement(name = "subscription")
 public class SubscriptionDTO {
 	
@@ -11,13 +13,16 @@ public class SubscriptionDTO {
 	private String name;
 	private boolean state;
 	private String description;
+	private UserSubscription[] userSubscription;
 	
 	
 	public SubscriptionDTO(){
 		super();
 	}
 
-	public SubscriptionDTO(Long subscriptionID, int year, int week, String name, boolean state, String description) {
+
+	public SubscriptionDTO(Long subscriptionID, int year, int week, String name, boolean state, String description,
+			UserSubscription[] userSubscription) {
 		super();
 		this.subscriptionID = subscriptionID;
 		this.year = year;
@@ -25,6 +30,14 @@ public class SubscriptionDTO {
 		this.name = name;
 		this.state = state;
 		this.description = description;
+		this.userSubscription = userSubscription;
+	}
+
+	public UserSubscription[] getUserSubscription() {
+		return userSubscription;
+	}
+	public void setUserSubscription(UserSubscription[] userSubscription) {
+		this.userSubscription = userSubscription;
 	}
 
 	public Long getSubscriptionID() {

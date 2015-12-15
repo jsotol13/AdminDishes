@@ -2,13 +2,15 @@ package com.mycompany.webapp.mapper;
 
 import com.mycompany.webapp.dto.SubscriptionDTO;
 import com.mycompany.webapp.model.Subscription;
+import com.mycompany.webapp.model.UserSubscription;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2015-12-02T19:29:01-0600",
+    date = "2015-12-14T22:17:22-0600",
     comments = "version: 1.0.0.CR2, compiler: javac, environment: Java 1.8.0_60 (Oracle Corporation)"
 )
 public class SubscriptionMapperImpl implements SubscriptionMapper {
@@ -41,7 +43,23 @@ public class SubscriptionMapperImpl implements SubscriptionMapper {
         subscriptionDTO_.setDescription( subscription.getDescription() );
         subscriptionDTO_.setState( subscription.getState() );
         subscriptionDTO_.setSubscriptionID( subscription.getSubscriptionID() );
+        subscriptionDTO_.setUserSubscription( userSubscriptionSetToUserSubscriptionArray( subscription.getUserSubscription() ) );
 
         return subscriptionDTO_;
+    }
+
+    protected com.mycompany.webapp.model.UserSubscription[] userSubscriptionSetToUserSubscriptionArray(Set<UserSubscription> set) {
+        if ( set == null ) {
+            return null;
+        }
+
+        UserSubscription[] userSubscriptionTmp = new UserSubscription[set.size()];
+        int i = 0;
+        for ( UserSubscription userSubscription : set ) {
+            userSubscriptionTmp[i] = userSubscription;
+            i++;
+        }
+
+        return userSubscriptionTmp;
     }
 }

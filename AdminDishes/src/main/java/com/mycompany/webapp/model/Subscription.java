@@ -27,7 +27,8 @@ public class Subscription extends BaseObject {
 	private boolean state;
 	private String description;
 	private Set<MealSubscription> mealSubscription;
-
+	private Set<UserSubscription> userSubscription;
+	
 	// START SNIPPET: subscriptionID
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -100,14 +101,27 @@ public class Subscription extends BaseObject {
 	}
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "subscription", cascade = CascadeType.ALL)
+	//@JsonIgnore
+	//@XmlTransient
 	public Set<MealSubscription> getMealSubscription() {
 		return mealSubscription;
 	}
-
 	public void setMealSubscription(Set<MealSubscription> mealSubscription) {
 		this.mealSubscription = mealSubscription;
 	}
 
+	
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "subscription", cascade = CascadeType.ALL)
+	//@JsonIgnore
+	//@XmlTransient
+	public Set<UserSubscription> getUserSubscription() {
+		return userSubscription;
+	}
+	public void setUserSubscription(Set<UserSubscription> userSubscription) {
+		this.userSubscription = userSubscription;
+	}
+	
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

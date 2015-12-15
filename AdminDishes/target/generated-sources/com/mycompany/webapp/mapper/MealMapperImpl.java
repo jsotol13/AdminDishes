@@ -8,7 +8,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2015-12-02T19:29:00-0600",
+    date = "2015-12-14T22:17:22-0600",
     comments = "version: 1.0.0.CR2, compiler: javac, environment: Java 1.8.0_60 (Oracle Corporation)"
 )
 public class MealMapperImpl implements MealMapper {

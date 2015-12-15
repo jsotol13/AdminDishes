@@ -164,4 +164,28 @@
 			<value>1</value>
 		</row>
 	</table>
+	<table name="userCus">
+		<column>userId</column>
+		<column>nickName</column>
+		<column>idProfile</column>
+		<column>state</column>
+		<column>password</column>
+		<row>
+			<value>1</value>
+			<value>jsoto</value>
+			<value>600255</value>
+			<value>1</value>
+			<value>jsoto</value>
+		</row>
+	</table>
+	<table name="userSubscription">
+		<column>userSubscriptionID</column> 
+		<column>subscriptionID</column>
+		<column>userId</column>		
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>			
+		</row>
+	</table>	
 </dataset>

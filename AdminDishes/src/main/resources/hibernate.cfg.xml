@@ -12,5 +12,7 @@
         <mapping class="com.mycompany.webapp.model.Subscription"/>
         <mapping class="com.mycompany.webapp.model.Meal"/>
          <mapping class="com.mycompany.webapp.model.MealSubscription"/>
+         <mapping class="com.mycompany.webapp.model.UserCus"/>
+        <mapping class="com.mycompany.webapp.model.UserSubscription"/>
     </session-factory>
 </hibernate-configuration>

@@ -24,6 +24,8 @@
             <ref bean="userManager"/>
             <ref bean="subscriptionManager"/>
             <ref bean="mealManager" />
+            <ref bean="userCusManager"/>
+            <ref bean="userSubscriptionManager"/>
         </jaxrs:serviceBeans>
         <jaxrs:providers>
             <ref bean="jsonProvider"/>
