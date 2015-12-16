@@ -72,5 +72,6 @@ public class SubscriptionManagerImpl  extends GenericManagerImpl<Subscription, L
 		subscriptionDTOs = SubscriptionMapper.INSTANCE.subscriptionsToSubscriptionsDTOs(subscriptionList);
 		return subscriptionDTOs;
 	}
+
 	
 }

@@ -12,8 +12,18 @@
     <context:component-scan base-package="com.mycompany"/>
 
     <!-- Add new DAOs here -->
-
+    
     <!-- Add new Managers here -->
+    
+     <!--SubscriptionManager-START-->
+    <bean id="subscriptionManager" class="org.appfuse.service.impl.GenericManagerImpl">
+        <constructor-arg>
+            <bean class="org.appfuse.dao.hibernate.GenericDaoHibernate">
+                <constructor-arg value="org.appfuse.tutorial.model.Subscription"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+    
     
     <!-- Configure and Alternative PasswordTokenManager -->
 	<!-- <bean id="passwordTokenManager" class="org.appfuse.service.impl.PersistentPasswordTokenManagerImpl" autowire="default" /> -->

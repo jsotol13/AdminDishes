@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mycompany.webapp.filter.LocaleFilterTest" time="0.74" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="com.mycompany.webapp.filter.LocaleFilterTest" time="1.078" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="jboss.i18n.generate-proxies" value="true"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
     <property name="java.vm.version" value="25.60-b23"/>
@@ -63,9 +62,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="testLocaleAndCountry" classname="com.mycompany.webapp.filter.LocaleFilterTest" time="0.734"/>
+  <testcase name="testLocaleAndCountry" classname="com.mycompany.webapp.filter.LocaleFilterTest" time="1.07"/>
   <testcase name="testSetLocaleInSessionWhenSessionNotNull" classname="com.mycompany.webapp.filter.LocaleFilterTest" time="0.001"/>
-  <testcase name="testSetInvalidLocale" classname="com.mycompany.webapp.filter.LocaleFilterTest" time="0.001"/>
-  <testcase name="testSetLocaleInSessionWhenSessionIsNull" classname="com.mycompany.webapp.filter.LocaleFilterTest" time="0.001"/>
+  <testcase name="testSetInvalidLocale" classname="com.mycompany.webapp.filter.LocaleFilterTest" time="0.002"/>
+  <testcase name="testSetLocaleInSessionWhenSessionIsNull" classname="com.mycompany.webapp.filter.LocaleFilterTest" time="0.002"/>
   <testcase name="testJstlLocaleIsSet" classname="com.mycompany.webapp.filter.LocaleFilterTest" time="0.003"/>
 </testsuite>
